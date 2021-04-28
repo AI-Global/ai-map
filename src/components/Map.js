@@ -296,11 +296,15 @@ class Map extends React.Component {
     let { width, height, selected, selectedGood } = this.state;
     return (
       <div>
-        <div className="logo-box">
-          <a target="_blank" rel="noopener noreferrer" href="https://ai-global.org/">
-            <img alt="AI Global Logo" src="/transparent-rect-logo.png" />
-          </a>
-          <License />
+        <div className="logo-box" style={{ paddingTop: '10px', paddingLeft: '10px' }}>
+          <div style={{ marginRight: '50px' }}>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.responsible.ai/">
+              <img alt="RAI Logo" src="/transparent-rect-logo.png" />
+            </a>
+          </div>
+          <div>
+            <License />
+          </div>
         </div>
         <SideDrawer
           selected={selected}
@@ -341,7 +345,7 @@ function License() {
       <a rel="license noopener noreferrer" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
         <img
           title={
-            'Where in the World is AI? AI Global is licensed under a Creative Commons Attribution 4.0 International License'
+            'Where in the World is AI? RAI is licensed under a Creative Commons Attribution 4.0 International License'
           }
           alt="Creative Commons License"
           style={{ borderWidth: 0 }}
@@ -404,8 +408,8 @@ function SideDrawer({ selected, selectedGood, onClickDomain, onClickGoodness }) 
         role="presentation"
         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
       >
-        <a style={{ marginTop: '20px' }} target="_blank" rel="noopener noreferrer" href="https://ai-global.org/">
-          <img alt="AI Global Logo" src="/transparent-rect-logo.png" />
+        <a style={{ marginTop: '20px' }} target="_blank" rel="noopener noreferrer" href="https://www.responsible.ai/">
+          <img alt="RAI Logo" src="/transparent-rect-logo.png" />
         </a>
         <FormGroup className="legend-box">
           <h3 style={{ margin: '0', marginTop: '20px' }}>
