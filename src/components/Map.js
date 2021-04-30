@@ -299,7 +299,7 @@ class Map extends React.Component {
         <div className="logo-box" style={{ paddingTop: '10px', paddingLeft: '10px' }}>
           <div style={{ marginRight: '50px' }}>
             <a target="_blank" rel="noopener noreferrer" href="https://www.responsible.ai/">
-              <img alt="RAI Logo" src="/transparent-rect-logo.png" />
+              <img alt="RAI Logo" src="/rai-logo-text.png" style={{width: "200px"}}/>
             </a>
           </div>
           <div>
@@ -400,23 +400,36 @@ function SideDrawer({ selected, selectedGood, onClickDomain, onClickGoodness }) 
   };
 
   const list = (anchor) => (
-    <ClickAwayListener onClickAway={toggleDrawer('left', false)}>
+    <ClickAwayListener onClickAway={toggleDrawer("left", false)}>
       <div
         className={clsx(classes.list, {
-          [classes.fullList]: anchor === 'top' || anchor === 'bottom',
+          [classes.fullList]: anchor === "top" || anchor === "bottom",
         })}
         role="presentation"
-        style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+        }}
       >
-        <a style={{ marginTop: '20px' }} target="_blank" rel="noopener noreferrer" href="https://www.responsible.ai/">
-          <img alt="RAI Logo" src="/transparent-rect-logo.png" />
+        <a
+          style={{ marginTop: "20px" }}
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.responsible.ai/"
+        >
+          <img
+            alt="RAI Logo"
+            src="/rai-logo-text.png"
+            style={{ width: "200px" }}
+          />
         </a>
         <FormGroup className="legend-box">
-          <h3 style={{ margin: '0', marginTop: '20px' }}>
+          <h3 style={{ margin: "0", marginTop: "20px" }}>
             <strong>Domains</strong>
           </h3>
           {domains.map((domain) => (
-            <div style={{ display: 'flex', alignItems: 'center' }}>
+            <div style={{ display: "flex", alignItems: "center" }}>
               <FormControlLabel
                 control={
                   <CustomColorCheckbox
@@ -426,18 +439,21 @@ function SideDrawer({ selected, selectedGood, onClickDomain, onClickGoodness }) 
                   />
                 }
               />
-              <p style={{ fontWeight: 'normal' }}>{domain}</p>
+              <p style={{ fontWeight: "normal" }}>{domain}</p>
             </div>
           ))}
           <hr />
-          <h3 style={{ margin: '0', marginTop: '20px' }}>
+          <h3 style={{ margin: "0", marginTop: "20px" }}>
             <strong>Where AI Has Been...</strong>
           </h3>
           {goodness.map((isGood) => (
             <FormControlLabel
-              style={{ fontSize: '0.6rem', marginRight: '0', padding: '0' }}
+              style={{ fontSize: "0.6rem", marginRight: "0", padding: "0" }}
               control={
-                <CustomCheckbox checked={selectedGood.includes(isGood)} onChange={() => onClickGoodness(isGood)} />
+                <CustomCheckbox
+                  checked={selectedGood.includes(isGood)}
+                  onChange={() => onClickGoodness(isGood)}
+                />
               }
               label={isGood}
             />
