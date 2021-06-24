@@ -6494,5 +6494,21 @@ export default [
         "action": "",
         "reading": "",
         "insights": ""
+    },
+    {
+        "title": "Rapid exclusion of COVID-19 infection using AI, EKG technology\n",
+        "issue": "The AI-enhanced EKG was able to detect COVID-19 infection in the test with a positive predictive value of people infected at 37% and a negative predictive value of people not infected at 91%. When additional normal control subjects were added to reflect a 5% prevalence of COVID-19 \u2014 similar to a real-world population \u2014 the negative predictive value jumped to 99.2%.",
+        "year": "2021",
+        "domain": "Health Services",
+        "city": "Scottsdale",
+        "state": "Arizona",
+        "country": "USA",
+        "lat": "33.585764",
+        "lng": "-111.79356",
+        "is_good": "Helpful",
+        "link": "https://newsnetwork.mayoclinic.org/discussion/rapid-exclusion-of-covid-19-infection-using-ai-ekg-technology/",
+        "action": "",
+        "reading": "",
+        "insights": ""
     }
 ]
