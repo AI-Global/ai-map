@@ -6510,5 +6510,53 @@ export default [
         "action": "",
         "reading": "",
         "insights": ""
+    },
+    {
+        "title": "A hospital algorithm designed to predict a deadly condition misses most cases",
+        "issue": "The study examined data from nearly 40,000 hospitalizations at Michigan Medicine in 2018 and 2019. Patients developed sepsis in 2,552 of those hospitalizations. Epic\u2019s sepsis tool missed 1,709 of those cases, around two-thirds of which were still identified and treated quickly. It only identified 7 percent of sepsis cases that were missed by a physician. The analysis also found a high rate of false positives: when an alert went off for a patient, there was only a 12 percent chance that the patient actually would develop sepsis.",
+        "year": "2021",
+        "domain": "Health Services",
+        "city": "Verona",
+        "state": "Wisconsin",
+        "country": "USA",
+        "lat": "0.082397",
+        "lng": "-0.07746",
+        "is_good": "Helpful",
+        "link": "https://www.theverge.com/2021/6/22/22545044/algorithm-hospital-sepsis-epic-prediction",
+        "action": "",
+        "reading": "",
+        "insights": ""
+    },
+    {
+        "title": "Microscopy and machine learning algorithm can predict viral infections",
+        "issue": "The group has also shown that the algorithm can detect acute and severe infections with 95% precision and up to 24 hours in advance. Images of living cells from lytic infections, in which the virus particles multiply quickly and the cells dissipate, as well as images of unrelenting infections, in which viruses are created constantly but only in small quantities, served as training material.",
+        "year": "2021",
+        "domain": "Health Services",
+        "city": "",
+        "state": "Z\u00fcrich",
+        "country": "Switzerland",
+        "lat": "47.36865",
+        "lng": "8.539183",
+        "is_good": "Helpful",
+        "link": "https://www.innovationnewsnetwork.com/microscopy-machine-learning-algorithm-predict-viral-infections/12680/",
+        "action": "",
+        "reading": "",
+        "insights": ""
+    },
+    {
+        "title": "Using A.I. to Find Bias in A.I.",
+        "issue": "More than $100 million has been invested over the past six months in companies exploring ethical issues involving artificial intelligence, after $186 million last year, according to PitchBook, a research firm that tracks financial activity.",
+        "year": "2021",
+        "domain": "Health Services",
+        "city": "New York",
+        "state": "New York",
+        "country": "USA",
+        "lat": "40.756",
+        "lng": "-73.99",
+        "is_good": "Helpful",
+        "link": "https://www.nytimes.com/2021/06/30/technology/artificial-intelligence-bias.html",
+        "action": "",
+        "reading": "",
+        "insights": ""
     }
 ]
