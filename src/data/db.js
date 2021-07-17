@@ -6558,5 +6558,21 @@ export default [
         "action": "",
         "reading": "",
         "insights": ""
+    },
+    {
+        "title": "Semiconductor Industry: Key growth drivers and the changing trends \u2013 An Overview",
+        "issue": "Despite the global pandemic and resulting economic downturn, the global semiconductor industry remained resilient with revenue growth of 6.5% to reach the $440bn mark in 2020.\n\nAs per the 2021 Global Semiconductor Industry Outlook, the logic and memory chips segments were among the fastest growing with over 10% growth reported from each of these sub-categories in 2020.",
+        "year": "2021",
+        "domain": "Health Services",
+        "city": "Bellandur",
+        "state": "Bengaluru",
+        "country": "India",
+        "lat": "12.922559",
+        "lng": "77.681671",
+        "is_good": "Helpful",
+        "link": "https://www.financialexpress.com/investing-abroad/stockal-specials/semiconductor-industry-key-growth-drivers-and-the-changing-trends-an-overview/2287214/",
+        "action": "",
+        "reading": "",
+        "insights": ""
     }
 ]
