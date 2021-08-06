@@ -1,4 +1,4 @@
-export defualt[
+export defualt [
     {
         "title": "Fraudsters Used AI to Mimic CEO\u2019s Voice in Unusual Cybercrime Case",
         "issue": "Criminals used AI-based software to copy a German CEO and requested to transfer over $243,000 to a supplier",
